@@ -58,9 +58,9 @@ async def start(update: Update, context: CallbackContext):
         await context.bot.send_message(chat_id=chat_id, text="*❌ You are not authorized to use this bot! /get_id*", parse_mode='Markdown')
         return
     message = (
-       "*🚀ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ıllıllı GODXSIKANDAR DDOS server ıllıllı 🚀*\n\n"
+       "*🚀ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ıllıllı  server ıllıllı 🚀*\n\n"
         "*💀Use /attack <ip> <port> <duration>*\n"
-        "*💀ꜱᴇʀᴠᴇʀ ꜰʀᴇᴇᴢ ᴡɪᴛʜ @God_x_Sikandar 🚀*" 
+        "*💀ꜱᴇʀᴠᴇʀ ꜰʀᴇᴇᴢ ᴡɪᴛʜ @H3X_neeraj 🚀*" 
     )
     await context.bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
@@ -127,7 +127,7 @@ async def attack(update: Update, context: CallbackContext):
         f"💢 *ꜱɪɢᴍᴀ ꜱᴛʀɪᴋᴇ ɪɴ ᴇꜰᴇᴇᴄᴛ!* 💢\n\n"
         f"*🎯 ᴛᴀʀɢᴇᴛ ꜱᴇᴛ: {ip}:{port}*\n"
         f"*⏳ᴅᴜʀᴀᴛɪᴏɴ ʟᴏᴄᴋᴇᴅ: {duration} seconds*\n"
-        f"*🔥ᴜɴʟᴇᴀꜱʜɪɴɢ ꜰᴏʀᴄᴇ. ɴᴏ ᴛᴜʀɴɪɴɢ ʙᴀᴄᴋ. Powered by @God_x_Sikandar💥*"
+        f"*🔥ᴜɴʟᴇᴀꜱʜɪɴɢ ꜰᴏʀᴄᴇ. ɴᴏ ᴛᴜʀɴɪɴɢ ʙᴀᴄᴋ. Powered by @H3X_neeraj💥*"
     ), parse_mode='Markdown')
 
     asyncio.create_task(run_attack(chat_id, ip, port, duration, context))
